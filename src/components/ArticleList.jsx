@@ -1,8 +1,7 @@
-import React from "react";
-import Article from "./Article.jsx";
+import Article from "./Article";
 
-function ArticleList(props) {
-  const articleItems = props.posts.map((post) => {
+function ArticleList({ posts }) {
+  const articleComponents = posts.map((post) => {
     return (
       <Article
         key={post.id}
@@ -13,7 +12,7 @@ function ArticleList(props) {
     );
   });
 
-  return <main>{articleItems}</main>;
+  return <main>{articleComponents}</main>;
 }
 
 export default ArticleList;

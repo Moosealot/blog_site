@@ -1,6 +1,6 @@
 const blog = {
   name: "Daily Dev Blog",
-  image: "https://via.placeholder.com/215",
+  image: "https://via.placeholder.com/200",
   about: "Thoughts, tutorials, and stories from a developer learning React.",
   posts: [
     {
